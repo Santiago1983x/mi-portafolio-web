@@ -1,0 +1,45 @@
+/* ===== 1. Variables CSS ===== */
+:root {
+    --color-fondo: #f1f5f9;
+    --color-fondo-alterno: #e2e8f0;
+    --color-texto: #334155;
+    --color-principal: #1e293b;
+    --color-principal-oscuro: #0f172a;
+    --color-acento: #3b82f6;
+    --color-blanco: #ffffff;
+
+    --fuente-titulos: Georgia, "Times New Roman", serif;
+    --fuente-texto: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    --espacio: 1.5rem;
+    --radio: 12px;
+}
+
+/* ===== 2. Base General ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--fuente-texto);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+}
+
+h1, h2, h3 {
+    font-family: var(--fuente-titulos);
+    line-height: 1.2;
+    color: var(--color-principal);
+}
+
+a {
+    color: inherit;
+}

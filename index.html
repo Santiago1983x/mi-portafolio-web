@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Mi Portafolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Jose Yepez Chilan</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Mi Portafolio</h1>
-<p>Estructura inicial del proyecto</p>
+
+    <!-- 1. Encabezado -->
+    <header class="encabezado">
+        <div class="encabezado__identidad">
+            <h1 class="encabezado__nombre">Jose Yepez Chilan</h1>
+            <p class="encabezado__carrera">Estudiante de Programación de Sistemas Web</p>
+        </div>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li><a class="menu__enlace" href="#inicio">Inicio</a></li>
+                <li><a class="menu__enlace" href="#sobre-mi">Sobre mí</a></li>
+                <li><a class="menu__enlace" href="#habilidades">Habilidades</a></li>
+                <li><a class="menu__enlace" href="#proyectos">Proyectos</a></li>
+                <li><a class="menu__enlace" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- 2. Sección Principal -->
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero__texto">
+                <h2 class="hero__titulo">Bienvenido a mi portafolio</h2>
+                <p class="hero__descripcion">
+                    Soy estudiante apasionado por el desarrollo web y la tecnología.
+                </p>
+                <a class="boton" href="#proyectos">Ver mis proyectos</a>
+            </div>
+            <img class="hero__imagen" src="img/perfil.jpg.jpg" alt="Foto de perfil de Jose Yepez Chilan">
+        </section>
+
+        <!-- Sección para Sobre mí, habilidades, proyectos y contacto -->
+
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Jose Yepez Chilan</p>
+    </footer>
+
 </body>
 </html>
