@@ -43,3 +43,71 @@ h1, h2, h3 {
 a {
     color: inherit;
 }
+
+/* ===== 3. Encabezado ===== */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+
+    padding: 1rem 5%;
+
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    box-shadow: var(--sombra);
+}
+
+.encabezado__identidad {
+    flex: 0 1 auto;
+}
+
+.encabezado__nombre {
+    font-size: 1.5rem;
+    color: var(--color-blanco);
+}
+
+.encabezado__carrera {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    margin: 0.2rem 0 0;
+}
+
+.menu {
+    max-width: 100%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+
+    list-style: none;
+}
+
+/* ===== 4. Presentación ===== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    max-width: 1150px;
+    min-height: 460px;
+    margin: 0 auto;
+    padding: 4.5rem 2rem;
+}
+
+.hero__texto {
+    flex: 1 1 320px;
+    max-width: 600px;
+}
